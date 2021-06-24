@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="edge"/>
+  <listeners>
+    <listener class-name="com.qa.Utility.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Functioal testing(failed)">
+    <parameter name="Url" value="https://www.redbus.in/"/>
+    <classes>
+      <class name="com.qa.TestScript.UnavailableBus">
+        <methods>
+          <include name="unavilablebusses" invocation-numbers="0"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.TestScript.UnavailableBus -->
+    </classes>
+  </test> <!-- Functioal testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
