@@ -13,9 +13,9 @@
 		
 		<classes>
   			<!-- <class name="com.qa.TestScript.RedBus" />  -->
-<!--  			<class name="com.qa.TestScript.AvailabilityBus"/>
- --> 			<class name="com.qa.TestScript.UnavailableBus"/>
- 			
+ 			<class name="com.qa.TestScript.AvailabilityBus"/>
+<!--   			<class name="com.qa.TestScript.UnavailableBus"/>
+ -->  			
  		</classes>
 	</test>   
 </suite> 

@@ -8,13 +8,13 @@
   <test thread-count="5" name="Functioal testing(failed)">
     <parameter name="Url" value="https://www.redbus.in/"/>
     <classes>
-      <class name="com.qa.TestScript.UnavailableBus">
+      <class name="com.qa.TestScript.AvailabilityBus">
         <methods>
-          <include name="unavilablebusses" invocation-numbers="0"/>
           <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="signIn"/>
         </methods>
-      </class> <!-- com.qa.TestScript.UnavailableBus -->
+      </class> <!-- com.qa.TestScript.AvailabilityBus -->
     </classes>
   </test> <!-- Functioal testing(failed) -->
 </suite> <!-- Failed suite [Suite] -->

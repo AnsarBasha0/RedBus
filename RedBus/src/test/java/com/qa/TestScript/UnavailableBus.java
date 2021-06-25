@@ -33,7 +33,7 @@ public class UnavailableBus extends TestBaseClass
 		redbus.getsearchbtn().click();
 		String currentURL=driver.getCurrentUrl();
 		
-		if(currentURL=="https://www.redbus.in/")
+		if(currentURL=="https://www.redbus.in/")		
 		{
 			System.out.println("Available busses");
 			Assert.assertTrue(true);
@@ -51,7 +51,7 @@ public class UnavailableBus extends TestBaseClass
 	@DataProvider
 	public String[][] getData() throws IOException
 	{
-		String xFile="C:\\Users\\ansar\\eclipse-workspace\\RedBus\\src\\test\\java\\com\\qa\\Testdata\\Book 4.xlsx";
+		String xFile="C:\\Users\\ansar\\git\\repository4\\RedBus\\src\\test\\java\\com\\qa\\Testdata\\Book 4.xlsx";
 		String xSheet="Sheet4";
 		int rowCount=UtilityClass.getRowCount(xFile, xSheet);
 		int cellCount=UtilityClass.getCellCount(xFile, xSheet, rowCount);

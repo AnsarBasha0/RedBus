@@ -45,7 +45,7 @@ public class AvailabilityBus extends TestBaseClass
 	@DataProvider
 	public String[][] getData() throws IOException
 	{
-		String xFile="C:\\Users\\ansar\\eclipse-workspace\\RedBus\\src\\test\\java\\com\\qa\\Testdata\\Book 4.xlsx";
+		String xFile="C:\\Users\\ansar\\git\\repository4\\RedBus\\src\\test\\java\\com\\qa\\Testdata\\Book 4.xlsx";
 		String xSheet="Sheet4";
 		int rowCount=UtilityClass.getRowCount(xFile, xSheet);
 		int cellCount=UtilityClass.getCellCount(xFile, xSheet, rowCount);
