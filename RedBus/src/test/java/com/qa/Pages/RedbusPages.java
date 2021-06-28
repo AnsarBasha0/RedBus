@@ -232,3 +232,8 @@ import org.testng.annotations.Test;
 			
 		
 	}
+	
+	/*<systemPropertyVariables>
+						<log4j.configuration>file:conf/log4j-test.properties</log4j.configuration>
+					</systemPropertyVariables>
+					*/
