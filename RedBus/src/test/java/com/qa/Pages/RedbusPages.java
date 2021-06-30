@@ -50,9 +50,6 @@ import org.testng.annotations.Test;
 		}
 		
 		
-		
-		
-		
 		@FindBy(id="dest")
 		WebElement To;
 		public WebElement getTo()

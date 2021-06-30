@@ -34,7 +34,7 @@ public class AvailabilityBus extends TestBaseClass
 		//second step
 		
 		Thread.sleep(5000);
-		redbus.getclosepopup().click();
+		//redbus.getclosepopup().click();
 		String availability_of_seats=redbus.getavailableseat().getText();
 		System.out.println("Total : "+availability_of_seats);
 		

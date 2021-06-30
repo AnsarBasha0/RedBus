@@ -2,7 +2,6 @@ package com.qa.TestScript;
 
 import java.io.File;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -26,12 +25,12 @@ public class TestBaseClass
 		
 		if(Browser.equalsIgnoreCase("edge")) 
 		{
-			System.setProperty("webdriver.edge.driver", "C:\\Users\\ansar\\eclipse-workspace\\Sample1\\conf\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "C:\\Users\\ansar\\git\\repository4\\RedBus\\Drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
 		else if(Browser.equalsIgnoreCase("firefox")) 
 		{
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\ansar\\git\\repository\\Sample1\\conf\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\ansar\\git\\repository4\\RedBus\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		driver.get(Url);
